@@ -36,7 +36,7 @@ projeto/
 1. Clone o repositório:
 
 ```bash
-git clone SEU-LINK-AQUI
+https://mansilha-gm.github.io/Star-Wars-site-/
 ```
 
 2. Abra o projeto no VS Code
