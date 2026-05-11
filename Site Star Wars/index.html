@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Star Wars — A Saga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="mouse-light" id="mouseLight"></div>
+  <canvas id="stars"></canvas>
+
+  <main>
+
+    <!-- ── HERO ── -->
+<section id="hero">
+
+  <div class="space-bg"></div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <p class="crawl-label">
+      A Ascensão e Queda de Anakin Skywalker
+    </p>
+
+    <img
+      class="hero-logo"
+      src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg"
+      alt="Star Wars"
+    />
+
+    <p class="hero-tagline">
+      Antes de Luke Skywalker…<br>
+      existia Anakin Skywalker.<br>
+      A jornada do herói que se tornou Darth Vader.
+    </p>
+
+  </div>
+
+</section>
+
+    <!-- ── INTERLÚDIO 1 ── -->
+    <div class="interlude" data-reveal>
+      <div class="interlude-bg"></div>
+      <blockquote>
+        "Que a Força esteja com você."
+        <cite>— Tradição Jedi</cite>
+      </blockquote>
+    </div>
+
+    <!-- ── EPISÓDIO IV ── -->
+    <article class="episode" data-reveal>
+  <div class="episode-visual">
+    <img
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMufnghkfGGPh-nK0Ypn4o7KcQ30Z5IGADWDyGfgw81n-tDMJdFHr81thZy-LFuzB57advNart4e1F3BO454uKTHI8VODvS-Jtx-VGszvMC5DVrKhfHODGrDdChyxY4PxFKkddTUZczq4/w1200-h630-p-k-no-nu/star+wars+a+amea%25C3%25A7a+fantasma.png"
+      alt="A Ameaça Fantasma"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="episode-text">
+    <p class="ep-number">Episódio I</p>
+
+    <h2 class="ep-title">A Ameaça<br>Fantasma</h2>
+
+    <p class="ep-subtitle">1999</p>
+
+    <div class="ep-divider"></div>
+
+    <p class="ep-description">
+      A República Galáctica vive tempos de tensão. Os Jedi Qui-Gon Jinn e
+      Obi-Wan Kenobi encontram um jovem escravo chamado Anakin Skywalker,
+      cuja conexão com a Força parece extraordinária.
+      Enquanto os Sith retornam das sombras, uma nova ameaça começa a surgir.
+    </p>
+
+    <p class="ep-year">TPM · I · 1999</p>
+  </div>
+</article>
+
+    <!-- ── EPISÓDIO V ── -->
+    <article class="episode" data-reveal>
+  <div class="episode-visual">
+    <img
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE-78i3KiAc-8WMU_koqBFD8QEiiBBYhzV-zcCfGf5NqEFpcaZ1KW9GRet6ztO21zLnfwvQwYnSnR4Uf0CPREcPmFOWfOSGkJXsli66BzNwmIXC9B-NjNUpe94Grpr1yw9Mu75KKs-OV4/s1600/star+wars+ataque+dos+clones.png"
+      alt="Ataque dos Clones"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="episode-text">
+    <p class="ep-number">Episódio II</p>
+
+    <h2 class="ep-title">Ataque<br>dos Clones</h2>
+
+    <p class="ep-subtitle">2002</p>
+
+    <div class="ep-divider"></div>
+
+    <p class="ep-description">
+      Anakin Skywalker agora é um aprendiz Jedi impulsivo e poderoso.
+      Enquanto protege Padmé Amidala, os dois se aproximam emocionalmente.
+      Ao mesmo tempo, a galáxia mergulha em guerra com o surgimento do
+      exército clone e o início das Guerras Clônicas.
+    </p>
+
+    <p class="ep-year">AOTC · II · 2002</p>
+  </div>
+</article>
+
+    <!-- ── EPISÓDIO VI ── -->
+   <article class="episode" data-reveal>
+  <div class="episode-visual">
+    <img
+      src="https://image.tmdb.org/t/p/original/8ZXP0btDwyjETrJgRqbY4AO3Pem.jpg"
+      alt="A Vingança dos Sith"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="episode-text">
+    <p class="ep-number">Episódio III</p>
+
+    <h2 class="ep-title">A Vingança<br>dos Sith</h2>
+
+    <p class="ep-subtitle">2005</p>
+
+    <div class="ep-divider"></div>
+
+    <p class="ep-description">
+      As Guerras Clônicas chegam ao fim enquanto Anakin Skywalker é consumido
+      pelo medo e pela manipulação do Chanceler Palpatine.
+      Seduzido pelo lado sombrio da Força, Anakin se transforma em Darth Vader,
+      marcando a queda da Ordem Jedi e o nascimento do Império Galáctico.
+    </p>
+
+    <p class="ep-year">ROTS · III · 2005</p>
+  </div>
+</article>
+
+    <!-- ── INTERLÚDIO FINAL ── -->
+    <div class="interlude" data-reveal>
+      <div class="interlude-bg"></div>
+      <blockquote>
+        "Não existe Força clara ou escura.<br>Existe apenas a Força."
+        <cite>— Chirrut Îmwe</cite>
+      </blockquote>
+    </div>
+
+  </main>
+
+  <footer>
+    Star Wars &nbsp;·&nbsp; A Saga Original &nbsp;·&nbsp; Que a Força esteja com você
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
