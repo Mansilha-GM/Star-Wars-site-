@@ -28,22 +28,29 @@ projeto/
 │
 ├── index.html
 ├── style.css
-└── script.js 
+└── script.js
+```
 
-```md id="jqchqe"
 ## Como Executar
 
 1. Clone o repositório:
 
 ```bash
 git clone SEU-LINK-AQUI
+```
 
-Inspiração
+2. Abra o projeto no VS Code
+
+3. Abra o arquivo `index.html` no navegador
+
+## Inspiração
 
 O visual do projeto foi inspirado nas introduções cinematográficas de Star Wars, trazendo uma experiência imersiva focada na ascensão e queda de Darth Vader.
 
-Preview
+## Preview
 
-“Antes de Luke Skywalker… existia Anakin Skywalker.”
+> “Antes de Luke Skywalker… existia Anakin Skywalker.”
+
+---
 
 Que a Força esteja com você.
