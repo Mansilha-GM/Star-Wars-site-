@@ -21,16 +21,22 @@ Tecnologias Utilizadas
 * HTML5
 * CSS3
 * JavaScript Vanilla
-Estrutura
-📦 projeto
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┗ 📜 script.js
-Como Executar
-Clone o repositório:
+## Estrutura
+
+```text
+projeto/
+│
+├── index.html
+├── style.css
+└── script.js 
+
+```md id="jqchqe"
+## Como Executar
+
+1. Clone o repositório:
+
+```bash
 git clone SEU-LINK-AQUI
-Abra o projeto no VS Code
-Execute o index.html no navegador
 Inspiração
 
 O visual do projeto foi inspirado nas introduções cinematográficas de Star Wars, trazendo uma experiência imersiva focada na ascensão e queda de Darth Vader.
