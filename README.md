@@ -37,6 +37,7 @@ projeto/
 
 ```bash
 git clone SEU-LINK-AQUI
+
 Inspiração
 
 O visual do projeto foi inspirado nas introduções cinematográficas de Star Wars, trazendo uma experiência imersiva focada na ascensão e queda de Darth Vader.
