@@ -14,149 +14,279 @@
   <div class="mouse-light" id="mouseLight"></div>
   <canvas id="stars"></canvas>
 
+  <!-- Sabre de luz decorativo flutuante -->
+  <div class="saber-ambient" id="saberAmbient"></div>
+
+  <!-- Partículas da Força -->
+  <div class="force-particles" id="forceParticles"></div>
+
   <main>
 
     <!-- ── HERO ── -->
-<section id="hero">
+    <section id="hero">
+      <div class="space-bg"></div>
+      <div class="hero-overlay"></div>
 
-  <div class="space-bg"></div>
+      <!-- Sabre de luz no hero -->
+      <div class="hero-saber hero-saber-left" id="heroSaberLeft"></div>
+      <div class="hero-saber hero-saber-right" id="heroSaberRight"></div>
 
-  <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="crawl-label">A Ascensão e Queda de Anakin Skywalker</p>
+        <img
+          class="hero-logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg"
+          alt="Star Wars"
+        />
+        <p class="hero-tagline">
+          Uma galáxia muito, muito distante…<br>
+          A jornada do herói que se tornou Darth Vader —<br>
+          e do filho que o redimiu.
+        </p>
+        <div class="force-ring"></div>
+      </div>
 
-  <div class="hero-content">
+      <div class="scroll-hint">↓ &nbsp; Role para explorar &nbsp; ↓</div>
+    </section>
 
-    <p class="crawl-label">
-      A Ascensão e Queda de Anakin Skywalker
-    </p>
-
-    <img
-      class="hero-logo"
-      src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg"
-      alt="Star Wars"
-    />
-
-    <p class="hero-tagline">
-      Antes de Luke Skywalker…<br>
-      existia Anakin Skywalker.<br>
-      A jornada do herói que se tornou Darth Vader.
-    </p>
-
-  </div>
-
-</section>
+    <!-- ── ERA BANNER: PRELÚDIO ── -->
+    <div class="era-banner" data-reveal>
+      <div class="era-line"></div>
+      <span>A QUEDA DA REPÚBLICA</span>
+      <div class="era-line"></div>
+    </div>
 
     <!-- ── INTERLÚDIO 1 ── -->
     <div class="interlude" data-reveal>
       <div class="interlude-bg"></div>
+      <div class="saber-horizontal saber-blue" data-reveal></div>
       <blockquote>
         "Que a Força esteja com você."
         <cite>— Tradição Jedi</cite>
       </blockquote>
     </div>
 
-    <!-- ── EPISÓDIO IV ── -->
-    <article class="episode" data-reveal>
-  <div class="episode-visual">
-    <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMufnghkfGGPh-nK0Ypn4o7KcQ30Z5IGADWDyGfgw81n-tDMJdFHr81thZy-LFuzB57advNart4e1F3BO454uKTHI8VODvS-Jtx-VGszvMC5DVrKhfHODGrDdChyxY4PxFKkddTUZczq4/w1200-h630-p-k-no-nu/star+wars+a+amea%25C3%25A7a+fantasma.png"
-      alt="A Ameaça Fantasma"
-      loading="lazy"
-    />
-  </div>
+    <!-- ── EPISÓDIO I ── -->
+    <article class="episode ep-i" data-reveal>
+      <div class="episode-visual">
+        <img
+          src="https://acdn-us.mitiendanube.com/stores/004/687/740/products/pos-00881-6ed118fff55377b32117181353429537-1024-1024.webp"
+          alt="A Ameaça Fantasma"
+          loading="lazy"
+        />
+        <div class="episode-saber-accent saber-green"></div>
+      </div>
+      <div class="episode-text">
+        <p class="ep-number">Episódio I</p>
+        <h2 class="ep-title">A Ameaça<br>Fantasma</h2>
+        <p class="ep-subtitle">1999</p>
+        <div class="ep-divider"></div>
+        <p class="ep-description">
+          A República Galáctica vive tempos de tensão. Os Jedi Qui-Gon Jinn e
+          Obi-Wan Kenobi encontram um jovem escravo chamado Anakin Skywalker,
+          cuja conexão com a Força parece extraordinária.
+          Enquanto os Sith retornam das sombras, uma nova ameaça começa a surgir.
+        </p>
+        <div class="force-quote">
+          <span>"Sinto que há muito medo nele."</span>
+        </div>
+        <p class="ep-year">TPM · I · 1999</p>
+      </div>
+    </article>
 
-  <div class="episode-text">
-    <p class="ep-number">Episódio I</p>
+    <!-- ── EPISÓDIO II ── -->
+    <article class="episode ep-ii" data-reveal>
+      <div class="episode-visual">
+        <img
+          src="https://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/0GwAAOSwfE5glvn7/$_57.JPG?set_id=8800005007"
+          alt="Ataque dos Clones"
+          loading="lazy"
+        />
+        <div class="episode-saber-accent saber-blue"></div>
+      </div>
+      <div class="episode-text">
+        <p class="ep-number">Episódio II</p>
+        <h2 class="ep-title">Ataque<br>dos Clones</h2>
+        <p class="ep-subtitle">2002</p>
+        <div class="ep-divider"></div>
+        <p class="ep-description">
+          Anakin Skywalker agora é um aprendiz Jedi impulsivo e poderoso.
+          Enquanto protege Padmé Amidala, os dois se aproximam emocionalmente.
+          Ao mesmo tempo, a galáxia mergulha em guerra com o surgimento do
+          exército clone e o início das Guerras Clônicas.
+        </p>
+        <div class="force-quote">
+          <span>"Meu amor por você é uma tormenta, Padmé."</span>
+        </div>
+        <p class="ep-year">AOTC · II · 2002</p>
+      </div>
+    </article>
 
-    <h2 class="ep-title">A Ameaça<br>Fantasma</h2>
+    <!-- ── EPISÓDIO III ── -->
+    <article class="episode ep-iii" data-reveal>
+      <div class="episode-visual">
+        <img
+          src="https://image.tmdb.org/t/p/original/8ZXP0btDwyjETrJgRqbY4AO3Pem.jpg"
+          alt="A Vingança dos Sith"
+          loading="lazy"
+        />
+        <div class="episode-saber-accent saber-red"></div>
+      </div>
+      <div class="episode-text">
+        <p class="ep-number">Episódio III</p>
+        <h2 class="ep-title">A Vingança<br>dos Sith</h2>
+        <p class="ep-subtitle">2005</p>
+        <div class="ep-divider ep-divider-red"></div>
+        <p class="ep-description">
+          As Guerras Clônicas chegam ao fim enquanto Anakin Skywalker é consumido
+          pelo medo e pela manipulação do Chanceler Palpatine.
+          Seduzido pelo lado sombrio da Força, Anakin se transforma em Darth Vader,
+          marcando a queda da Ordem Jedi e o nascimento do Império Galáctico.
+        </p>
+        <div class="force-quote force-quote-dark">
+          <span>"É eu quem determinará o que a Força é!"</span>
+        </div>
+        <p class="ep-year">ROTS · III · 2005</p>
+      </div>
+    </article>
 
-    <p class="ep-subtitle">1999</p>
+    <!-- ── TRANSIÇÃO SITH ── -->
+    <div class="dark-side-transition" data-reveal>
+      <div class="vader-breath-container">
+        <div class="vader-chest-light"></div>
+        <p class="vader-text">DARTH VADER</p>
+        <p class="vader-sub">Lord dos Sith · Servo do Imperador</p>
+      </div>
+      <div class="saber-cross-left saber-red-glow"></div>
+      <div class="saber-cross-right saber-red-glow"></div>
+    </div>
 
-    <div class="ep-divider"></div>
+    <!-- ── ERA BANNER: TRILOGIA ORIGINAL ── -->
+    <div class="era-banner era-banner-red" data-reveal>
+      <div class="era-line era-line-red"></div>
+      <span>A REBELIÃO DESPERTA</span>
+      <div class="era-line era-line-red"></div>
+    </div>
 
-    <p class="ep-description">
-      A República Galáctica vive tempos de tensão. Os Jedi Qui-Gon Jinn e
-      Obi-Wan Kenobi encontram um jovem escravo chamado Anakin Skywalker,
-      cuja conexão com a Força parece extraordinária.
-      Enquanto os Sith retornam das sombras, uma nova ameaça começa a surgir.
-    </p>
-
-    <p class="ep-year">TPM · I · 1999</p>
-  </div>
-</article>
-
-    <!-- ── EPISÓDIO V ── -->
-    <article class="episode" data-reveal>
-  <div class="episode-visual">
-    <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE-78i3KiAc-8WMU_koqBFD8QEiiBBYhzV-zcCfGf5NqEFpcaZ1KW9GRet6ztO21zLnfwvQwYnSnR4Uf0CPREcPmFOWfOSGkJXsli66BzNwmIXC9B-NjNUpe94Grpr1yw9Mu75KKs-OV4/s1600/star+wars+ataque+dos+clones.png"
-      alt="Ataque dos Clones"
-      loading="lazy"
-    />
-  </div>
-
-  <div class="episode-text">
-    <p class="ep-number">Episódio II</p>
-
-    <h2 class="ep-title">Ataque<br>dos Clones</h2>
-
-    <p class="ep-subtitle">2002</p>
-
-    <div class="ep-divider"></div>
-
-    <p class="ep-description">
-      Anakin Skywalker agora é um aprendiz Jedi impulsivo e poderoso.
-      Enquanto protege Padmé Amidala, os dois se aproximam emocionalmente.
-      Ao mesmo tempo, a galáxia mergulha em guerra com o surgimento do
-      exército clone e o início das Guerras Clônicas.
-    </p>
-
-    <p class="ep-year">AOTC · II · 2002</p>
-  </div>
-</article>
-
-    <!-- ── EPISÓDIO VI ── -->
-   <article class="episode" data-reveal>
-  <div class="episode-visual">
-    <img
-      src="https://image.tmdb.org/t/p/original/8ZXP0btDwyjETrJgRqbY4AO3Pem.jpg"
-      alt="A Vingança dos Sith"
-      loading="lazy"
-    />
-  </div>
-
-  <div class="episode-text">
-    <p class="ep-number">Episódio III</p>
-
-    <h2 class="ep-title">A Vingança<br>dos Sith</h2>
-
-    <p class="ep-subtitle">2005</p>
-
-    <div class="ep-divider"></div>
-
-    <p class="ep-description">
-      As Guerras Clônicas chegam ao fim enquanto Anakin Skywalker é consumido
-      pelo medo e pela manipulação do Chanceler Palpatine.
-      Seduzido pelo lado sombrio da Força, Anakin se transforma em Darth Vader,
-      marcando a queda da Ordem Jedi e o nascimento do Império Galáctico.
-    </p>
-
-    <p class="ep-year">ROTS · III · 2005</p>
-  </div>
-</article>
-
-    <!-- ── INTERLÚDIO FINAL ── -->
+    <!-- ── INTERLÚDIO 2 ── -->
     <div class="interlude" data-reveal>
-      <div class="interlude-bg"></div>
-      <blockquote>
+      <div class="interlude-bg interlude-bg-red"></div>
+      <div class="saber-horizontal saber-red-h" data-reveal></div>
+      <blockquote class="quote-dark">
         "Não existe Força clara ou escura.<br>Existe apenas a Força."
         <cite>— Chirrut Îmwe</cite>
       </blockquote>
     </div>
 
+    <!-- ── EPISÓDIO IV ── -->
+    <article class="episode ep-iv" data-reveal>
+      <div class="episode-visual">
+        <img
+          src="https://m.media-amazon.com/images/I/A1wnJQFI82L._AC_SL1500_.jpg"
+          alt="Uma Nova Esperança"
+          loading="lazy"
+        />
+        <div class="episode-saber-accent saber-blue"></div>
+      </div>
+      <div class="episode-text">
+        <p class="ep-number">Episódio IV</p>
+        <h2 class="ep-title">Uma Nova<br>Esperança</h2>
+        <p class="ep-subtitle">1977</p>
+        <div class="ep-divider"></div>
+        <p class="ep-description">
+          Em uma galáxia dominada pelo Império, um jovem fazendeiro chamado
+          Luke Skywalker descobre seu destino ao lado de Han Solo, a Princesa
+          Leia e o Jedi Obi-Wan Kenobi. A Aliança Rebelde encontra esperança
+          ao descobrir os planos da Estrela da Morte.
+        </p>
+        <div class="force-quote">
+          <span>"Use a Força, Luke."</span>
+        </div>
+        <p class="ep-year">ANH · IV · 1977</p>
+      </div>
+    </article>
+
+    <!-- ── EPISÓDIO V ── -->
+    <article class="episode ep-v" data-reveal>
+      <div class="episode-visual">
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BY2ViMjFhMDMtNTA4Yi00NGJjLTk0ZTktNGVkZjJjMGY4ZTFkXkEyXkFqcGc@._V1_.jpg"
+          alt="O Império Contra-Ataca"
+          loading="lazy"
+        />
+        <div class="episode-saber-accent saber-red"></div>
+      </div>
+      <div class="episode-text">
+        <p class="ep-number">Episódio V</p>
+        <h2 class="ep-title">O Império<br>Contra-Ataca</h2>
+        <p class="ep-subtitle">1980</p>
+        <div class="ep-divider ep-divider-red"></div>
+        <p class="ep-description">
+          Luke Skywalker busca o mestre Jedi Yoda em Dagobah para completar
+          seu treinamento. Enquanto isso, Han Solo e seus aliados são encurralados
+          pelo Império em Bespin. Uma revelação chocante sobre o passado de
+          Luke muda tudo para sempre.
+        </p>
+        <div class="force-quote force-quote-dark">
+          <span>"Eu sou seu pai."</span>
+        </div>
+        <p class="ep-year">ESB · V · 1980</p>
+      </div>
+    </article>
+
+    <!-- ── EPISÓDIO VI ── -->
+    <article class="episode ep-vi" data-reveal>
+      <div class="episode-visual">
+        <img
+          src="https://i.ebayimg.com/images/g/QscAAOSw34xkgY4M/s-l1200.jpg"
+          alt="O Retorno de Jedi"
+          loading="lazy"
+        />
+        <div class="episode-saber-accent saber-green"></div>
+      </div>
+      <div class="episode-text">
+        <p class="ep-number">Episódio VI</p>
+        <h2 class="ep-title">O Retorno<br>de Jedi</h2>
+        <p class="ep-subtitle">1983</p>
+        <div class="ep-divider"></div>
+        <p class="ep-description">
+          Luke Skywalker enfrenta seu destino ao confrontar Darth Vader e o
+          Imperador Palpatine. Em uma batalha final que vai além das espadas de
+          luz, o amor de um filho desperta o bem que ainda existe em seu pai,
+          cumprindo a profecia do Escolhido e trazendo equilíbrio à Força.
+        </p>
+        <div class="force-quote force-quote-final">
+          <span>"Ainda há bem nele. Eu posso sentir."</span>
+        </div>
+        <p class="ep-year">ROTJ · VI · 1983</p>
+      </div>
+    </article>
+
+    <!-- ── INTERLÚDIO FINAL ── -->
+    <div class="interlude interlude-final" data-reveal>
+      <div class="interlude-bg interlude-bg-gold"></div>
+      <div class="force-orb"></div>
+      <blockquote class="quote-final">
+        "Sempre dois há, nem mais nem menos.<br>Um mestre e um aprendiz."
+        <cite>— Mestre Yoda</cite>
+      </blockquote>
+    </div>
+
+    <!-- ── SABRE FINAL ── -->
+    <div class="saber-finale" data-reveal>
+      <div class="saber-fin saber-fin-blue"></div>
+      <div class="saber-fin-clash"></div>
+      <div class="saber-fin saber-fin-red"></div>
+    </div>
+
   </main>
 
   <footer>
-    Star Wars &nbsp;·&nbsp; A Saga Original &nbsp;·&nbsp; Que a Força esteja com você
+    <div class="footer-force">
+      <span class="footer-saber footer-saber-l"></span>
+      <span class="footer-text">Star Wars &nbsp;·&nbsp; A Saga Original &nbsp;·&nbsp; Que a Força esteja com você</span>
+      <span class="footer-saber footer-saber-r"></span>
+    </div>
   </footer>
 
   <script src="script.js"></script>
