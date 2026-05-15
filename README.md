@@ -1,56 +1,56 @@
-Star Wars — The Rise and Fall of Anakin Skywalker
+# Star Wars — A Saga 
 
-Um site interativo inspirado no universo de Star Wars, focado na trajetória de Anakin Skywalker através da trilogia prequel:
+Projeto interativo inspirado no universo Star Wars, focado na trajetória de Anakin Skywalker até sua transformação em Darth Vader e sua redenção.
 
-* Episódio I — A Ameaça Fantasma
-* Episódio II — Ataque dos Clones
-* Episódio III — A Vingança dos Sith
+O site apresenta uma experiência cinematográfica com animações suaves, efeitos visuais, partículas da Força, sabres de luz e transições baseadas em scroll.
 
-O projeto utiliza animações cinematográficas, efeitos visuais interativos e uma experiência fluida baseada em scroll.
+## Demo
 
-Funcionalidades
-* Campo de estrelas animado em canvas
-* Cursor personalizado com efeito de luz
-* Parallax suave no hero
-* Animações ao scroll usando IntersectionObserver
-* Layout cinematográfico inspirado nos filmes
-* Design responsivo
-* Efeitos hover nas imagens
-* Fundo espacial contínuo em toda a página
-Tecnologias Utilizadas
-* HTML5
-* CSS3
-* JavaScript Vanilla
-## Estrutura
+````https://mansilha-gm.github.io/Star-Wars-site-/````
 
-```text
+## Episódios
+
+- Episódio I — A Ameaça Fantasma
+- Episódio II — Ataque dos Clones
+- Episódio III — A Vingança dos Sith
+- Episódio IV — Uma Nova Esperança
+- Episódio V — O Império Contra-Ataca
+- Episódio VI — O Retorno de Jedi
+
+## Funcionalidades
+
+- Campo de estrelas animado com Canvas API
+- Cursor personalizado
+- Partículas animadas da Força
+- Parallax no hero
+- Scroll Reveal com IntersectionObserver
+- Efeitos hover cinematográficos
+- Sabres de luz dinâmicos
+- Design responsivo
+- Background espacial contínuo
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript Vanilla
+
+## Estrutura do Projeto
+
+```bash
 projeto/
 │
 ├── index.html
 ├── style.css
 └── script.js
-```
-
-## Como Executar
-
-1. Clone o repositório:
-
-```bash
-https://mansilha-gm.github.io/Star-Wars-site-/
-```
-
-2. Abra o projeto no VS Code
-
-3. Abra o arquivo `index.html` no navegador
+````
 
 ## Inspiração
 
-O visual do projeto foi inspirado nas introduções cinematográficas de Star Wars, trazendo uma experiência imersiva focada na ascensão e queda de Darth Vader.
+- O visual do projeto foi inspirado nas introduções cinematográficas de Star Wars, trazendo uma experiência imersiva focada na ascensão e queda de Darth Vader.
 
-## Preview
+“Antes de Luke Skywalker… existia Anakin Skywalker.”
 
-> “Antes de Luke Skywalker… existia Anakin Skywalker.”
+## Autor
 
----
-
-Que a Força esteja com você.
+Guilherme Mansilha
