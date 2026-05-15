@@ -9,27 +9,14 @@
 </head>
 <body>
 
-  <div class="cursor" id="cursor"></div>
-  <div class="cursor-ring" id="cursorRing"></div>
-  <div class="mouse-light" id="mouseLight"></div>
   <canvas id="stars"></canvas>
-
-  <!-- Sabre de luz decorativo flutuante -->
-  <div class="saber-ambient" id="saberAmbient"></div>
-
-  <!-- Partículas da Força -->
-  <div class="force-particles" id="forceParticles"></div>
 
   <main>
 
     <!-- ── HERO ── -->
     <section id="hero">
-      <div class="space-bg"></div>
-      <div class="hero-overlay"></div>
-
-      <!-- Sabre de luz no hero -->
-      <div class="hero-saber hero-saber-left" id="heroSaberLeft"></div>
-      <div class="hero-saber hero-saber-right" id="heroSaberRight"></div>
+      <div class="hero-saber hero-saber-left"></div>
+      <div class="hero-saber hero-saber-right"></div>
 
       <div class="hero-content">
         <p class="crawl-label">A Ascensão e Queda de Anakin Skywalker</p>
@@ -43,7 +30,6 @@
           A jornada do herói que se tornou Darth Vader —<br>
           e do filho que o redimiu.
         </p>
-        <div class="force-ring"></div>
       </div>
 
       <div class="scroll-hint">↓ &nbsp; Role para explorar &nbsp; ↓</div>
@@ -59,7 +45,7 @@
     <!-- ── INTERLÚDIO 1 ── -->
     <div class="interlude" data-reveal>
       <div class="interlude-bg"></div>
-      <div class="saber-horizontal saber-blue" data-reveal></div>
+      <div class="saber-horizontal saber-blue-h" data-reveal></div>
       <blockquote>
         "Que a Força esteja com você."
         <cite>— Tradição Jedi</cite>
@@ -69,12 +55,8 @@
     <!-- ── EPISÓDIO I ── -->
     <article class="episode ep-i" data-reveal>
       <div class="episode-visual">
-        <img
-          src="https://acdn-us.mitiendanube.com/stores/004/687/740/products/pos-00881-6ed118fff55377b32117181353429537-1024-1024.webp"
-          alt="A Ameaça Fantasma"
-          loading="lazy"
-        />
-        <div class="episode-saber-accent saber-green"></div>
+        <img src="https://acdn-us.mitiendanube.com/stores/004/687/740/products/pos-00881-6ed118fff55377b32117181353429537-1024-1024.webp" alt="A Ameaça Fantasma" loading="lazy" />
+        <div class="episode-saber-accent saber-green-a"></div>
       </div>
       <div class="episode-text">
         <p class="ep-number">Episódio I</p>
@@ -97,12 +79,8 @@
     <!-- ── EPISÓDIO II ── -->
     <article class="episode ep-ii" data-reveal>
       <div class="episode-visual">
-        <img
-          src="https://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/0GwAAOSwfE5glvn7/$_57.JPG?set_id=8800005007"
-          alt="Ataque dos Clones"
-          loading="lazy"
-        />
-        <div class="episode-saber-accent saber-blue"></div>
+        <img src="https://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/0GwAAOSwfE5glvn7/$_57.JPG?set_id=8800005007" alt="Ataque dos Clones" loading="lazy" />
+        <div class="episode-saber-accent saber-blue-a"></div>
       </div>
       <div class="episode-text">
         <p class="ep-number">Episódio II</p>
@@ -125,12 +103,8 @@
     <!-- ── EPISÓDIO III ── -->
     <article class="episode ep-iii" data-reveal>
       <div class="episode-visual">
-        <img
-          src="https://image.tmdb.org/t/p/original/8ZXP0btDwyjETrJgRqbY4AO3Pem.jpg"
-          alt="A Vingança dos Sith"
-          loading="lazy"
-        />
-        <div class="episode-saber-accent saber-red"></div>
+        <img src="https://image.tmdb.org/t/p/original/8ZXP0btDwyjETrJgRqbY4AO3Pem.jpg" alt="A Vingança dos Sith" loading="lazy" />
+        <div class="episode-saber-accent saber-red-a"></div>
       </div>
       <div class="episode-text">
         <p class="ep-number">Episódio III</p>
@@ -150,15 +124,15 @@
       </div>
     </article>
 
-    <!-- ── TRANSIÇÃO SITH ── -->
+    <!-- ── TRANSIÇÃO DARTH VADER ── -->
     <div class="dark-side-transition" data-reveal>
       <div class="vader-breath-container">
         <div class="vader-chest-light"></div>
         <p class="vader-text">DARTH VADER</p>
         <p class="vader-sub">Lord dos Sith · Servo do Imperador</p>
       </div>
-      <div class="saber-cross-left saber-red-glow"></div>
-      <div class="saber-cross-right saber-red-glow"></div>
+      <div class="saber-cross-left"></div>
+      <div class="saber-cross-right"></div>
     </div>
 
     <!-- ── ERA BANNER: TRILOGIA ORIGINAL ── -->
@@ -181,12 +155,8 @@
     <!-- ── EPISÓDIO IV ── -->
     <article class="episode ep-iv" data-reveal>
       <div class="episode-visual">
-        <img
-          src="https://m.media-amazon.com/images/I/A1wnJQFI82L._AC_SL1500_.jpg"
-          alt="Uma Nova Esperança"
-          loading="lazy"
-        />
-        <div class="episode-saber-accent saber-blue"></div>
+        <img src="https://m.media-amazon.com/images/I/A1wnJQFI82L._AC_SL1500_.jpg" alt="Uma Nova Esperança" loading="lazy" />
+        <div class="episode-saber-accent saber-blue-a"></div>
       </div>
       <div class="episode-text">
         <p class="ep-number">Episódio IV</p>
@@ -209,12 +179,8 @@
     <!-- ── EPISÓDIO V ── -->
     <article class="episode ep-v" data-reveal>
       <div class="episode-visual">
-        <img
-          src="https://m.media-amazon.com/images/M/MV5BY2ViMjFhMDMtNTA4Yi00NGJjLTk0ZTktNGVkZjJjMGY4ZTFkXkEyXkFqcGc@._V1_.jpg"
-          alt="O Império Contra-Ataca"
-          loading="lazy"
-        />
-        <div class="episode-saber-accent saber-red"></div>
+        <img src="https://m.media-amazon.com/images/M/MV5BY2ViMjFhMDMtNTA4Yi00NGJjLTk0ZTktNGVkZjJjMGY4ZTFkXkEyXkFqcGc@._V1_.jpg" alt="O Império Contra-Ataca" loading="lazy" />
+        <div class="episode-saber-accent saber-red-a"></div>
       </div>
       <div class="episode-text">
         <p class="ep-number">Episódio V</p>
@@ -237,12 +203,8 @@
     <!-- ── EPISÓDIO VI ── -->
     <article class="episode ep-vi" data-reveal>
       <div class="episode-visual">
-        <img
-          src="https://i.ebayimg.com/images/g/QscAAOSw34xkgY4M/s-l1200.jpg"
-          alt="O Retorno de Jedi"
-          loading="lazy"
-        />
-        <div class="episode-saber-accent saber-green"></div>
+        <img src="https://i.ebayimg.com/images/g/QscAAOSw34xkgY4M/s-l1200.jpg" alt="O Retorno de Jedi" loading="lazy" />
+        <div class="episode-saber-accent saber-green-a"></div>
       </div>
       <div class="episode-text">
         <p class="ep-number">Episódio VI</p>
@@ -272,17 +234,27 @@
       </blockquote>
     </div>
 
-    <!-- ── SABRE FINAL ── -->
+    <!-- ── SLIDER JEDI VS SITH ── -->
     <div class="saber-finale" data-reveal>
-      <div class="saber-fin saber-fin-blue"></div>
-      <div class="saber-fin-clash"></div>
-      <div class="saber-fin saber-fin-red"></div>
+      <div class="side-container">
+        <h2 class="side-title">EM QUAL LADO VOCÊ ESTÁ?</h2>
+        <div class="side-slider">
+          <span class="jedi-text">Jedi</span>
+          <div class="slider-track" id="sliderTrack">
+            <div class="slider-fill-left" id="sliderFillLeft"></div>
+            <div class="slider-fill-right" id="sliderFillRight"></div>
+            <div class="slider-ball" id="sliderBall"></div>
+          </div>
+          <span class="sith-text">Lado Negro</span>
+        </div>
+        <p class="slider-result" id="sliderResult">Arraste para escolher seu caminho</p>
+      </div>
     </div>
 
   </main>
 
   <footer>
-    <div class="footer-force">
+    <div class="footer-inner">
       <span class="footer-saber footer-saber-l"></span>
       <span class="footer-text">Star Wars &nbsp;·&nbsp; A Saga Original &nbsp;·&nbsp; Que a Força esteja com você</span>
       <span class="footer-saber footer-saber-r"></span>
